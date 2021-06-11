@@ -1,0 +1,96 @@
+.plan {
+  padding-top: 80px;
+}
+
+.rec {
+  padding-top: 60px;
+}
+
+.rec .rec-slick {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rec .rec-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rec .rec-item object-fit:cover .text {
+  background-color: cl(white);
+  padding: 25px 25px 50px 25px;
+}
+
+.rec .rec-item .title {
+  color: cl(text);
+}
+
+.rec .rec-item .price {
+  padding-top: 60px;
+  color: cl(text);
+}
+
+.rec .rec-item .price > span {
+  color: cl(red);
+}
+
+.service .service-wrap {
+  padding-top: 100px;
+}
+
+.service .service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.service .service-item {
+  background-color: cl(lightgray);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
+  width: 32.5%;
+}
+
+.service .service-item + .service-item {
+  margin-left: 20px;
+}
+
+.service .service-item .text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.service .service-item .title {
+  font-size: 28px;
+  text-align: center;
+}
+
+.service .service-item .desc {
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+.service .service-item .image {
+  width: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=plan.css.map */

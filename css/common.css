@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+/* ヘッダー始まり */
+.top_title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #888;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.menu-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  background-color: #3584bb;
+
+}
+
+#menu-btn-check:checked~.menu-btn span {
+  background-color: rgba(255, 255, 255, 0);
+  /*メニューオープン時は真ん中の線を透明にする*/
+}
+
+#menu-btn-check:checked~.menu-btn span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#menu-btn-check:checked~.menu-btn span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+  display: none;
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.menu-btn span:before {
+  bottom: 8px;
+}
+
+.menu-btn span:after {
+  top: 8px;
+}
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  background-color: #3584bb;
+}
+
+.menu-content ul {
+  padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-content ul li a {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 9px 15px 10px 0;
+  position: relative;
+}
+
+.menu-content ul li a::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  /*leftの値を変更してメニューを画面外へ*/
+  z-index: 80;
+  background-color: #3584bb;
+  transition: all 0.5s;
+  /*アニメーション設定*/
+}
+
+#menu-btn-check:checked~.menu-content {
+  left: 0;
+  /*メニューを画面内へ*/
+}
+
+
+.mainview {
+  background-color: black;
+}
+
+.mainview p,
+li {
+  color: white;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+}
+
+.mainview b {
+  color: red;
+}
+
+/* ヘッダーここまで */
+
+/* aboutここから */
+
+.section {
+  padding: 120px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.font2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.font3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.font4 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about_img {
+  display: block;
+  width: 40%;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
+
+}
+
+/* aboutここまで */
+
+/* skillここから */
+
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 60px;
+}
+
+/* Skillここまで */
+
+/* workここから */
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+/* workここまで */
+
+/* contactここから */
+.contact_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+
+.contact_item {
+  width: 60px;
+}
+
+.contact_mail {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* contactここまで */
+
+
+
+/* footerここから */
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}

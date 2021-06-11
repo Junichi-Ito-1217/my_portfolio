@@ -1,0 +1,97 @@
+.plan {
+  padding-top: 80px;
+
+  .inner {}
+
+
+}
+
+.rec {
+  padding-top: 60px;
+
+  .rec-slick {
+    width: 100%;
+    object-fit: cover;
+
+
+  }
+
+  .rec-item {
+    display: flex;
+    flex-flow: column-reverse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    object-fit:cover .text {
+      background-color: cl(white);
+      padding: 25px 25px 50px 25px;
+    }
+
+    .title {
+      color: cl(text);
+    }
+
+    .price {
+      padding-top: 60px;
+      color: cl(text);
+
+      >span {
+        color: cl(red);
+      }
+    }
+
+    .image {}
+  }
+
+}
+
+.service {
+
+
+  .service-wrap {
+    padding-top: 100px;
+  }
+
+  .service-list {
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .service-item {
+    background-color: cl(lightgray);
+    display: flex;
+    flex-flow: column-reverse;
+    width: percentage(390/1200);
+
+    +.service-item {
+      margin-left: 20px;
+    }
+
+    .text {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 50px;
+
+    }
+
+    .title {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .desc {
+      padding-top: 40px;
+      font-size: 18px;
+    }
+
+    .image {
+      width: 160px;
+      margin-right: auto;
+      margin-left: auto;
+
+    }
+  }
+}

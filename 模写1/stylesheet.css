@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333333;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    padding-top: 80px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.facebook,
+.instagram {
+    width: 25px;
+    padding: 0 10px;
+}
+
+.a-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-flex a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.head-img {
+    width: 100%;
+    padding-top: 30px;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.ser-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ser-2 img {
+    width: 100px;
+    padding: 20px 0;
+}
+
+.ser-2 {
+    width: 30%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work img {
+    width: 30%;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px dashed gray;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+footer p {
+    font-size: 12px;
+}

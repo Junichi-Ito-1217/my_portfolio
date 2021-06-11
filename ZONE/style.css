@@ -1,0 +1,98 @@
+html,
+body {
+  font-family: "PT Serif", serif;
+  margin: 0px;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+}
+
+.header-logo {
+  width: 140px;
+  margin-left: 30px;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+
+/* トップ画像 */
+.top_image {
+  width: 100%;
+}
+/* 商品一覧 */
+.goods-list {
+  display: flex;
+}
+
+.goods-picture {
+  width: 100%;
+}
+
+.goods-item {
+  padding: 0 15px;
+}
+
+/* レスポンシブ */
+
+@media screen and (max-width: 767px) {
+  /* コース一覧 */
+  .goods-list {
+    flex-flow: column;
+  }
+  .goods-item {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+/* 問い合わせ（入力フォーム） */
+.contact {
+  display: block;
+  margin: 10px auto;
+}
+
+/* 問い合わせ(送信ボタン） */
+.submit {
+  display: block;
+  width: 250px;
+  margin: 30px auto 0 auto;
+  border-radius: 5%; /*  角丸  */
+  font-size: 16px; /*  文字サイズ  */
+  text-align: center; /*  文字位置  */
+  cursor: pointer; /*  カーソル  */
+  padding: 6px 6px; /*  余白  */
+  background: #000066; /*  背景色  */
+  color: #fff; /*  文字色  */
+  transition: 0.3s; /*  なめらか変化 */
+  box-shadow: 3px 3px 1px #666666; /*影の設定  */
+  border: 2px solid #000066; /* 枠の指定  */
+}
+.submit:hover {
+  box-shadow: none; /* カーソル時の影消去 */
+  color: #000066; /* 背景色  */
+  background: #fff; /*  文字色  */
+}
+/* フッター */
+footer {
+  margin-top: 60px;
+}
+
+.copyright {
+  font-size: 15px;
+}

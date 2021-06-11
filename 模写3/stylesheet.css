@@ -1,0 +1,636 @@
+/*全体の調整*/
+* {
+  padding: 0;
+  margin: 0;
+/*headerの調整*/
+}
+header {
+padding:0 10px 400px 10px;
+background-image:url("img/remo-main-hp.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+.logo {
+  max-width:60px;
+  margin:10px;
+}
+.heading-line {
+  display:flex;
+  justify-content:flex-end;
+  margin:30px 0 0 1000px;
+}
+.heading-enclose{
+  display: flex;
+}
+.heading-line a {
+  text-decoration:none;
+  font-size: 15px;
+  margin-right:50px;
+  color:white;
+}
+/*購入画面の調整*/
+.heading-sentence {
+ margin-top:80px;
+
+}
+.heading-text {
+  text-align:center;
+  color:white;
+}
+.heading-atag a {
+  color:white;
+  line-height: 30px;
+}
+.heading-atag {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*購入画面のマウス*/
+a.center:hover {
+  color: white;
+  color:#B3B3B3;
+  transition: 1s;
+}
+.heading-sentence h2 {
+  color: white;
+  font-weight: lighter;
+  font-size:50px;
+}
+.heading-sentence h1 {
+  color: white;
+  font-weight: lighter;
+  font-size:90px;
+}
+
+.heading-btag {
+  font-size: 10px;
+  display: flex;
+  margin-top: 250px;
+  padding-left: 50px;
+  justify-content: center;
+}
+/*Nature Remoを購入*/
+.heading-ctag a {
+  margin-right:200px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+
+.heading-ctag a:hover {
+  margin-right:200px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: white;
+  transition: 1s;
+}
+a.left:hover {
+  color:black;
+  transition: 1s;
+}
+/*Nature Remo Miniを購入*/
+.heading-dtag {
+  margin-right: 50px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 40px;
+}
+.heading-ctag a{
+  margin-bottom: 300px;
+}
+.heading-dtag:hover {
+  margin-right: 50px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 40px;
+  background-color: white;
+  transition: 1s;
+}
+a.right:hover {
+  color:black;
+  transition: 1s;
+}
+
+/*section1*/
+main {
+  padding:0 10px 30px 10px;
+}
+.section1-1 h2{
+  text-align: center;
+  font-style: normal;
+  margin-top:100px;
+  font-weight: 400;
+  line-height: 70px;
+}
+.section1-2 h2{
+  text-align: center;
+  font-weight: 400;
+  line-height: 70px;
+}
+.section1-2 p {
+  text-align: center;
+  word-break: normal;
+  line-height: 40px;
+}
+.section1-image {
+  text-align:center;
+  padding-top:90px;
+}
+.section1-3 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.section1-3 p {
+  text-align: center;
+  line-height: 40px;
+}
+.section1-image1 {
+  text-align:center;
+  padding-top:90px;
+}
+.section1-4sentence {
+  display:flex;
+}
+.section1-4p {
+   padding:100px 60px 100px 100px;
+}
+.section1-4p h3 {
+  padding:90px 90px 40px 110px;
+  font-weight: 400;
+  font-size: 26px;
+}
+.section1-4-image {
+	margin-right: 90px;
+}
+.section1-4-image img{
+	width:95%
+}
+.section1-4sentence p {
+  font-size: 15px;
+  padding: 0 90px 0px 110px;
+}
+.section1-5sentence {
+  display: flex;
+
+}
+.section1-5p h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.section1-5p {
+   text-align:right;
+   font-weight: 400;
+   padding:300px 80px 200px 50px;
+}
+.section1-5p h3 {
+  padding:0 520px 50px 20px;
+}
+.section1-5p p {
+  padding:0 320px 20px 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+.solid {
+  height: 1px;
+  border-bottom: 1px solid #ededed;
+  width:80%;
+  margin:0 auto;
+}
+/*section2*/
+.section2 {
+  padding-top:100px;
+}
+.section2-1 {
+  text-align: center;
+}
+.section2-2sentence {
+  display: flex;
+
+}
+.section2-1 h2 {
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.section2-1 p {
+  padding: 0 400px 100px 400px;
+  font-size：10px;
+}
+.section2-2-image {
+  text-align: right;
+  margin-right: 170px;
+}
+.section2-2-image img {
+  width: 80%;
+	padding-left: 40px;
+}
+.section2-2p h2 {
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.section2-2p p {
+	line-height: 40px;
+}
+.section2-2p {
+  padding-top: 200px;
+}
+
+.section2-3sentence {
+ display: flex;
+
+}
+.section2-3p {
+  padding:100px;
+  margin-left: 50px;
+}
+.section2-3p p {
+	line-height: 40px;
+}
+.section2-3p h3 {
+  padding:90px 90px 40px 110px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.section2-3sentence p {
+  font-size: 15px;
+  padding: 0 90px 0px 110px;
+}
+.section2-3-image img {
+  width: 65%;
+  margin-left: 80px;
+}
+.section2-3-image {
+  text-align: right;
+}
+.section2-4sentence {
+  display: flex;
+}
+.section2-4-image img {
+	width: 70%;
+	padding-left: 200px;
+}
+.section2-4p h2{
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.section2-4p {
+	padding-top: 200px;
+}
+.section2-4p p {
+	line-height: 40px;
+}
+.section2-5sentence {
+ display: flex;
+}
+.section2-5p {
+  padding:100px;
+  margin-left: 50px;
+}
+.section2-5p p {
+	line-height: 40px;
+}
+.section2-5p h3 {
+  padding:90px 90px 40px 110px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.section2-5sentence p {
+  font-size: 15px;
+  padding: 0 90px 0px 110px;
+}
+.section2-5-image img {
+  width: 62%;
+  margin-left: 140px;
+}
+.section2-5-image {
+  text-align: right;
+}
+.solid-1 {
+	padding-top: 30px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 85%;
+  margin:0 auto;
+}
+
+.section3-1 {
+	text-align: center;
+	padding-top: 100px;
+}
+.section3-1 p {
+	font-size:30px;
+	line-height: 70px;
+}
+.section3-1sentence {
+	display: flex;
+}
+.section3-2-1p h3{
+	padding:140px 90px 40px 110px;
+	font-weight: 400;
+	font-size: 30px;
+}
+.section3-2-1p p {
+	padding-left: 110px;
+}
+.section3-3sentence {
+	display: flex;
+}
+.section3-3p {
+  padding:100px;
+  margin-left: 50px;
+}
+.section3-3p p {
+	line-height: 40px;
+}
+.section3-3p h3 {
+  padding:30px 60px 60px 110px ;
+  font-weight: 400;
+  font-size: 30px;
+}
+.section3-3sentence p {
+  font-size: 15px;
+  padding: 0 90px 0px 110px;
+}
+.section3-3-image img {
+  width: 70%;
+}
+.solid-2 {
+	padding-top: 30px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 85%;
+  margin:0 auto;
+}
+.section4-1 {
+	text-align: center;
+	padding-top: 100px;
+}
+.section4-1 h3 {
+	font-size:30px;
+	line-height: 70px;
+}
+.container0 {
+	display: inline-block;
+}
+.section4-1-image {
+	text-align: center;
+	padding-top:30px;
+}
+.solid-3 {
+	padding-top: 30px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 85%;
+  margin:0 auto;
+}
+.section5-1 {
+	text-align: center;
+	padding-top: 100px;
+}
+.section5-1 h3 {
+	font-size:30px;
+	line-height: 70px;
+}
+.section5-1-image {
+	text-align: center;
+	padding-top:30px;
+}
+.container2 {
+	display: inline-block;
+}
+.section6-1 h3{
+  text-align: center;
+  margin-top: 100px;
+  font-size:30px;
+  font-weight: 400;
+}
+.section6-3 aa {
+  line-height: 2px;
+}
+.price {
+  line-height: 3;
+}
+.circle a{
+  font-size: 5px;
+  border:2px solid blue;
+  border-radius: 20px;
+  padding:10px 20px;
+  text-decoration: none;
+}
+.circle a:hover {
+  color: white;
+  background-color: blue;
+  transition: 1s;
+}
+.solid-0 {
+  border: solid 1px #ededed;
+  width: 340px;
+  margin: 20px;
+}
+.circle {
+  margin: 40px 0;
+}
+.circle1 {
+  margin-bottom: 60px;
+}
+.solid-4 {
+	padding-top: 10px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 5px;
+  margin:0 auto;
+}
+.price {
+  text-align: center;
+}
+.section6-1cover1 {
+  text-align: center;
+}
+.section6-3 {
+  text-align: center;
+}
+.section6-4 h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.section6-4 p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.remo-list {
+  display: flex;
+  justify-content: center;
+}
+.section7 {
+text-align: center;
+}
+.section7-1sentence {
+  margin: 20px 0;
+
+}
+.section7-1sentence h5 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.section7-image {
+  text-align: center;
+}
+.section7-word {
+  text-align: center;
+}
+.photo {
+  text-align: center;
+}
+.section8-image {
+  text-align: center;
+}
+.section8-image img {
+  margin-top: 70px;
+}
+.section8-image p {
+  text-align: center;
+  font-size: 15px;
+}
+.solid-5 {
+	padding-top: 20px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 80%;
+  margin:0 auto;
+}
+.section8-1 {
+  text-align: center;
+  margin-top: 30px;
+}
+.section8-1 h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section8-2 {
+  text-align: center;
+}
+.section8-2 img {
+  margin-top: 20px;
+}
+.solid-6 {
+  padding-top: 20px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 80%;
+  margin:0 auto;
+}
+.section8-3 {
+  text-align: center;
+}
+.section8-3 h3{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section8-3 p {
+  margin-top: 10px;
+}
+.section8-3-1 {
+  margin-top: 10px;
+}
+.solid-7 {
+  padding-top: 20px;
+  height: 4px;
+  border-bottom: 1px solid #ededed;
+  width: 80%;
+  margin:0 auto;
+}
+.section8-4 {
+  text-align: center;
+}
+.section8-4 h3{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section8-5 {
+  text-align: center;
+}
+.circle2 a{
+  font-size: 5px;
+  border:2px solid blue;
+  border-radius: 20px;
+  padding:10px 20px;
+  text-decoration: none;
+}
+.circle2 a:hover {
+  color: white;
+  background-color: blue;
+  transition: 1s;
+}
+.circle2 {
+  margin: 40px 0;
+}
+/*フッター*/
+footer {
+  padding:100px;
+  background-color: #CCCCCC;
+}
+.section9-list {
+  display: flex;
+  justify-content: center;
+}
+.section9-1 {
+  margin: 100px;
+}
+.section9-1 a {
+  color: black;
+}
+.section9-1 h3 {
+  color: #B3B3B3;
+  padding-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+}
+label,text {
+  padding: 20px;
+}
+
+}
+.contact {
+  height:40px;
+  width:100px;
+  padding-right: 70px;
+}
+.form {
+  display: flex;
+  padding-top: 30px;
+}
+.contact {
+  display: flex;
+  border-color: #CCCCCC;
+}
+.mail {
+  background-color: #FFFFFF;
+  border:1px solid #B3B3B3;
+  padding-left: 10px;
+}
+
+.sign {
+  margin-left: 10px;
+  border: 1px solid #FFFFFF;
+  background-color: #CCCCCC;
+  color: #FFFFFF;
+  padding-left: 30px;
+  overflow: hidden;
+}
+.sign:hover {
+  color: #black;
+  background-color: white;
+  transition: 1s;
+}
